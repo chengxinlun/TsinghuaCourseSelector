@@ -5,6 +5,7 @@
 *.txt
 *.tif
 *.conf
+course/
 captcha/
 
 #################

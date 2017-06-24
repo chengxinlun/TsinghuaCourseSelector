@@ -1,6 +1,7 @@
 # Automated Cource Selection (ACS)
 # Created by Cheng Xinlun @Tsinghua University, 2015/09/18
 # First draft finished debugging @Tsinghua University, 2015/09/20
+# Major improvement @Tsinghua Univerity, 2017/05/15
 
 # Dependencies
 # 1. Python 3
@@ -9,7 +10,6 @@
 
 
 # Import necessary modules
-import warnings
 import requests
 import urls
 import ipro
@@ -133,14 +133,3 @@ class XuanKe():
             print(selection_res + "\n")
             session.close()
             continue
-
-
-warnings.simplefilter("ignore")
-# Create class for cource selection
-sem = "2017-2018-1"
-cc = "rx"
-cn = "00240074"
-cs = "0"
-Myselection = XuanKe(sem, cc, cn, cs, "", "")
-# Let's do this
-Myselection.main_process()
