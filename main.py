@@ -29,11 +29,7 @@ except Exception as reason:
     os._exit(0)
 finally:
     f.close()
-if up.haskey("user") and up.haskey("pswd"):
     print("Profile loaded. Correctness will NOT be checked")
-else:
-    print("profile.conf ill-formated")
-    os._exit(0)
 # Load in each one and output invalid ones
 course_list = []
 for each in conf_list:
