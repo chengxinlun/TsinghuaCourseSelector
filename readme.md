@@ -1,1 +1,1 @@
-It won't stop even if you have got the course.
+Out-dated since the university switches to using waiting list.
